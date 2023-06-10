@@ -5,10 +5,9 @@
 
     color: var(--branco);
     text-align: center;
-    
     background-color: var(--bg-chamada-mobile);
 
-    padding-top: 12.25rem;
+    padding-top: 2.25rem;
     padding-bottom: 2.5rem;
 }
 
@@ -28,18 +27,12 @@
     margin: 0 auto 2.5rem;
 }
 
-.chamada__botao {
-    width: 100%;
-}
 
 @media screen and (min-width: 768px) {
 
     .chamada {
+        padding-top: 3.25rem;
 
-        background-image: url(../img/bg-intro.jpg);
-        background-size: cover;
-
-        padding-top: 8.25rem;
     }
 
     .chamada__titulo {
@@ -51,12 +44,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .chamada {
-        background-image: url(../img/bg-intro.jpg);
-        background-size: cover;
-
-        padding-top: 8.25rem;
-    }
 
     .chamada__titulo {
         font-size: 3.25rem;
